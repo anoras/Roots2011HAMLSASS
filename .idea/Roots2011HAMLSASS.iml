@@ -9,10 +9,31 @@
       </configuration>
     </facet>
   </component>
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="haml" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="3.0.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sqlite3" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -42,6 +63,8 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.24, /Users/anders/.rvm/gems/ruby-1.9.2-p0@global/gems/tzinfo-0.3.24)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-mount (v0.6.13, /Users/anders/.rvm/gems/ruby-1.9.2-p0@global/gems/rack-mount-0.6.13)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.3.1, /Users/anders/.rvm/gems/ruby-1.9.2-p0@global/gems/sqlite3-ruby-1.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v3.1.0.alpha.5, /Users/anders/.rvm/gems/ruby-1.9.2-p0@global/gems/haml-3.1.0.alpha.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3 (v1.3.3, /Users/anders/.rvm/gems/ruby-1.9.2-p0@global/gems/sqlite3-1.3.3)" level="application" />
   </component>
 </module>
 
