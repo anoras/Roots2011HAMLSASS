@@ -15,3 +15,13 @@
 -# DIVs using shorthand
 #main_content Lorem ipsum sit dolor.
 .content Lorem ipsum sit dolor.
+
+-# Nesting elements
+.content
+  #header
+    %h1 Welcome to the world of HAML!
+  #main
+    .column
+      This is the left column.
+    .column
+      This is the right column.
