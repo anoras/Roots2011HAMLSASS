@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f513995e-5584-4d17-8278-a3d8cc38f019" name="Default" comment="Added dependency to HAML.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/introduction_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/introduction_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/introduction.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/introduction_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/introduction_helper_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f513995e-5584-4d17-8278-a3d8cc38f019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/introduction/index.html.haml" afterPath="$PROJECT_DIR$/app/views/introduction/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="Roots2011HAMLSASS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +39,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/introduction/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="296" selection-end="296" vertical-scroll-proportion="0.23111111">
+            <state line="10" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.17777778">
               <folding />
             </state>
           </provider>
@@ -534,7 +527,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first steps of the introduction exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added shorthand DIV examples." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -549,6 +542,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added dependency to HAML." />
     <MESSAGE value="Added first steps of the introduction exercises." />
+    <MESSAGE value="Added shorthand DIV examples." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -605,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/introduction/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="296" selection-end="296" vertical-scroll-proportion="0.23111111">
+        <state line="10" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.17777778">
           <folding />
         </state>
       </provider>
