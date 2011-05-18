@@ -60,7 +60,6 @@ a {
         float: left;
         color: invert($navigation-background-color);
         width: $navigation-width / $navigation-items - 10px;
-        background-color: darken($navigation-background-color, 20%);
         &:hover {
             @include gradient(darken($navigation-background-color, 20%), darken($navigation-background-color, 40%));
             background-color: darken($navigation-background-color, 40%);
