@@ -4,6 +4,12 @@ $background-color: #111;
 $foreground-color: white;
 $accent-color: #CA005D;
 
+/* Mixins */
+@mixin gradient($from_color, $to_color) {
+    background: mix($from_color, $to_color);
+    background: -moz-linear-gradient(top, $from_color, $to_color);
+    background: -webkit-gradient(linear, left top, left bottom, from($from_color), to($to_color));
+}
 
 /* SASS nested elements & properties */
 
@@ -42,9 +48,10 @@ a {
 
 /* Operators and Functions */
 #navigation {
+    $navigation-background-color: #CED5DD;
     $navigation-width: 800px;
     $navigation-items: 5;
-    $navigation-background-color: #CED5DD;
+    @include gradient($navigation-background-color, darken($navigation-background-color, 20%));
 
     width: $navigation-width;
     border-bottom: 2px solid $navigation-background-color;
@@ -55,6 +62,7 @@ a {
         width: $navigation-width / $navigation-items - 10px;
         background-color: darken($navigation-background-color, 20%);
         &:hover {
+            @include gradient(darken($navigation-background-color, 20%), darken($navigation-background-color, 40%));
             background-color: darken($navigation-background-color, 40%);
         }
     }
