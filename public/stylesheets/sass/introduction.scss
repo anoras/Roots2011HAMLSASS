@@ -40,7 +40,7 @@ a {
     &:hover { color: $accent-color; }
 }
 
-/* Operators */
+/* Operators and Functions */
 #navigation {
     $navigation-width: 800px;
     $navigation-items: 5;
@@ -51,6 +51,11 @@ a {
 
     li {
         float: left;
+        color: invert($navigation-background-color);
         width: $navigation-width / $navigation-items - 10px;
+        background-color: darken($navigation-background-color, 20%);
+        &:hover {
+            background-color: darken($navigation-background-color, 40%);
+        }
     }
 }
