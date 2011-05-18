@@ -1,0 +1,49 @@
+$background_color: rgb(55,55,55);
+$foreground_color: white;
+$accent-color: #CA005D;
+
+@mixin gradient($from_color, $to_color) {
+    background: mix($from_color,$to_color);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#{$from_color}", endColorstr="#{$to_color}");
+    background: -webkit-gradient(linear, left top, left bottom, from($from_color), to($to_color));
+    background: -moz-linear-gradient(top,  $from_color,  $to_color);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+@mixin rounded($radius: 5px) {
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin shadow($color: black, $opacity: 0.5, $x_offset: 2px, $y_offset: 2px, $blur: 3px) {
+   	-moz-box-shadow: $x_offset $y_offset $blur rgba(red($color),green($color),blue($color),$opacity);
+   	-webkit-box-shadow: $x_offset $y_offset $blur rgba(red($color),green($color),blue($color),$opacity);
+}
+
+body {
+    background: $background_color;
+    color: $foreground_color;
+    margin: 20px;
+    .button {
+        @include rounded(10px);
+        @include gradient($accent_color, darken($accent_color,10%));
+        @include shadow;
+        display: inline-block;
+	    padding: 15px 20px 16px;
+	    color: $foreground_color;
+	    text-decoration: none;
+	    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	    border: 1px solid $accent_color;
+	    position: relative;
+	    cursor: pointer;
+	    &:hover {
+            @include gradient(complement($accent_color), complement(darken($accent_color, 20%)));
+            border-color: complement($accent_color);
+	    }
+    }
+}

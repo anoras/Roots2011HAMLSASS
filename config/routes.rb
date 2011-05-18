@@ -1,5 +1,5 @@
 Roots2011HAMLSASS::Application.routes.draw do
-  resources :introduction
+  resources :introduction, :button_exercise
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
