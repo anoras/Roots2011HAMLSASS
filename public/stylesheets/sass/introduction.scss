@@ -39,3 +39,18 @@ a {
     color: #92D400;
     &:hover { color: $accent-color; }
 }
+
+/* Operators */
+#navigation {
+    $navigation-width: 800px;
+    $navigation-items: 5;
+    $navigation-background-color: #CED5DD;
+
+    width: $navigation-width;
+    border-bottom: 2px solid $navigation-background-color;
+
+    li {
+        float: left;
+        width: $navigation-width / $navigation-items - 10px;
+    }
+}
