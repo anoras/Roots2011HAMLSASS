@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f513995e-5584-4d17-8278-a3d8cc38f019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/introduction/index.html.haml" afterPath="$PROJECT_DIR$/app/views/introduction/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" afterPath="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" />
     </list>
     <ignored path="Roots2011HAMLSASS.iws" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="introduction.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="59" selection-start="103" selection-end="103" vertical-scroll-proportion="0.048257373">
+            <state line="13" column="63" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20911528">
               <folding />
             </state>
           </provider>
@@ -592,7 +591,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SASS introduction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSS style for .important class." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -611,6 +610,7 @@
     <MESSAGE value="Added example of using multiple CSS classes." />
     <MESSAGE value="Added example of nesting elements." />
     <MESSAGE value="Added SASS introduction." />
+    <MESSAGE value="Added CSS style for .important class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="103" selection-end="103" vertical-scroll-proportion="0.048257373">
+        <state line="13" column="63" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20911528">
           <folding />
         </state>
       </provider>

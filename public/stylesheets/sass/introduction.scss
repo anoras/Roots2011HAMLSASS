@@ -2,6 +2,11 @@ body {
     background: #111;
     color: white;
     font-family: "Helvetica Neue", "Helvetica", "Arial";
+    #main {
+        .important {
+            color: green;
+        }
+    }
 }
 
 .important {
