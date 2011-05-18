@@ -1,3 +1,5 @@
+/* SASS nested elements & properties */
+
 body {
     background: #111;
     color: white;
@@ -23,6 +25,8 @@ body {
 .important {
     color: red;
 }
+
+/* SASS parent references */
 
 a {
     color: #92D400;
