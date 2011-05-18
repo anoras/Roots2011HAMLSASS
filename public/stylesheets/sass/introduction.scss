@@ -1,8 +1,15 @@
+/* Variables */
+
+$background-color: #111;
+$foreground-color: white;
+$accent-color: #CA005D;
+
+
 /* SASS nested elements & properties */
 
 body {
-    background: #111;
-    color: white;
+    background: $background-color;
+    color: $foreground-color;
     font-family: "Helvetica Neue", "Helvetica", "Arial";
     #main {
         .important {
@@ -30,5 +37,5 @@ body {
 
 a {
     color: #92D400;
-    &:hover { color: #CA005D; }
+    &:hover { color: $accent-color; }
 }

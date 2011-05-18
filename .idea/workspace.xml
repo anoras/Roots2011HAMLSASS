@@ -39,7 +39,7 @@
       <file leaf-file-name="introduction.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="48" selection-start="544" selection-end="544" vertical-scroll-proportion="0.49865952">
+            <state line="28" column="54" selection-start="574" selection-end="574" vertical-scroll-proportion="0.45040214">
               <folding />
             </state>
           </provider>
@@ -591,7 +591,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added example of SASS parent references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments to SASS markup to keep examples separate." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -614,6 +614,7 @@
     <MESSAGE value="Added example of SASS element nesting." />
     <MESSAGE value="Added example of SASS property nesting." />
     <MESSAGE value="Added example of SASS parent references." />
+    <MESSAGE value="Added comments to SASS markup to keep examples separate." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -677,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="544" selection-end="544" vertical-scroll-proportion="0.49865952">
+        <state line="28" column="54" selection-start="574" selection-end="574" vertical-scroll-proportion="0.45040214">
           <folding />
         </state>
       </provider>
