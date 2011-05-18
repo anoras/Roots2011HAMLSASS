@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f513995e-5584-4d17-8278-a3d8cc38f019" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Roots2011HAMLSASS.iml" afterPath="$PROJECT_DIR$/.idea/Roots2011HAMLSASS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/introduction.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/introduction.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/introduction/index.html.haml" afterPath="$PROJECT_DIR$/app/views/introduction/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" afterPath="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" />
     </list>
     <ignored path="Roots2011HAMLSASS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +40,7 @@
       <file leaf-file-name="introduction.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.06434316">
+            <state line="3" column="59" selection-start="103" selection-end="103" vertical-scroll-proportion="0.048257373">
               <folding />
             </state>
           </provider>
@@ -52,7 +49,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/introduction/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="146" selection-start="411" selection-end="411" vertical-scroll-proportion="-10.285714">
+            <state line="25" column="77" selection-start="597" selection-end="597" vertical-scroll-proportion="-14.285714">
               <folding />
             </state>
           </provider>
@@ -79,7 +76,7 @@
       <file leaf-file-name="introduction.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/introduction.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+            <state line="5" column="65" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,9 +103,9 @@
         <option value="$PROJECT_DIR$/app/views/introduction.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/introduction_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/introduction/index.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/introduction.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/introduction/index.html.haml" />
         <option value="$PROJECT_DIR$/public/stylesheets/sass/introduction.scss" />
       </list>
     </option>
@@ -595,7 +592,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added example of nesting elements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SASS introduction." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -613,6 +610,7 @@
     <MESSAGE value="Added shorthand DIV examples." />
     <MESSAGE value="Added example of using multiple CSS classes." />
     <MESSAGE value="Added example of nesting elements." />
+    <MESSAGE value="Added SASS introduction." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -653,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/introduction/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="146" selection-start="411" selection-end="411" vertical-scroll-proportion="-10.285714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="9" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
@@ -669,14 +660,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/introduction.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+        <state line="5" column="65" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/introduction/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="77" selection-start="597" selection-end="597" vertical-scroll-proportion="-14.285714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/introduction.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.06434316">
+        <state line="3" column="59" selection-start="103" selection-end="103" vertical-scroll-proportion="0.048257373">
           <folding />
         </state>
       </provider>
