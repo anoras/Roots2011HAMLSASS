@@ -23,3 +23,8 @@ body {
 .important {
     color: red;
 }
+
+a {
+    color: #92D400;
+    &:hover { color: #CA005D; }
+}
